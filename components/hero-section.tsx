@@ -41,7 +41,7 @@ const HeroSection = () => {
                 href="#projects" 
                 onClick={(e) => handleSmoothScroll(e, 'projects')}
               >
-                View Projects
+                View Experience
               </a> 
               <ArrowRight size={18} />
             </Button>
