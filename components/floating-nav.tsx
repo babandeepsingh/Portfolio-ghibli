@@ -54,7 +54,7 @@ const FloatingNav = () => {
   };
 
   return (
-    <div className="fixed right-6 top-1/2 transform -translate-y-1/2 z-50">
+    <div style={{zIndex:'1'}} className="fixed right-6 top-1/2 transform -translate-y-1/2 z-50">
       <div className="flex flex-col items-center gap-4 bg-background/80 backdrop-blur-sm p-3 rounded-full shadow-lg border border-border">
         {sections.map((section) => (
           <a

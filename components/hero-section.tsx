@@ -73,6 +73,7 @@ const HeroSection = () => {
           alt="Babandeep Singh" 
           fill
           priority
+          style={{zIndex:'-1'}}
           className="object-cover"
           sizes="(max-width: 600px) 100vw, (max-width: 1200px) 50vw, 33vw" // Specify sizes for different screen widths
         />
