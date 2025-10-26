@@ -15,8 +15,8 @@ const ptSans = PT_Sans({
 });
 
 export const metadata: Metadata = {
-  title: "John Doe | Full Stack Developer",
-  description: "Portfolio website of John Doe, a Full Stack Developer specializing in modern web technologies.",
+  title: "Babandeep Singh | Full Stack Developer | Portfolio",
+  description: "Portfolio website of Babandeep Singh, a Full Stack Developer specializing in modern web technologies.",
 };
 
 export default function RootLayout({
@@ -26,6 +26,20 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <title>Babandeep Singh | Full Stack Developer</title>
+        <meta charSet="utf-8" />
+        <meta name="description" content="Babandeep Singh | Full Stack Developer | Portfolio" />
+        <meta property="og:title" content="Babandeep Singh | Full Stack Developer | Portfolio" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no,user-scalable=no,viewport-fit=cover" />
+        <link rel="apple-touch-icon" href="/favicon.ico" />
+        <meta name="apple-mobile-web-app-title" content="Babandeep Singh" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+        <meta property="og:title" content="Babandeep Singh" />
+        <link rel="icon" href="/favicon.ico" />
+      </head>
       <body
         className={`${nunito.variable} ${ptSans.variable} antialiased relative`}
       >
